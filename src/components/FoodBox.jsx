@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FoodData from "./FoodData"
-import '../app.css';
+import '../App.css';
 
 class FoodBox extends Component {
   constructor(props) {
