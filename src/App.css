@@ -1,0 +1,127 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    background-color:pink;
+  }
+  
+  .bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search p {
+    margin-right: 10px;
+  }
+  
+  .search input {
+    width: 700px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid rgb(245, 126, 146);
+    border-radius: 5px;
+  }
+  
+  .foods {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .foods img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+  
+  .bichkenam {
+    margin-left: 20px;
+  }
+  
+  .bichkenam p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    color: #f44336;
+  }
+  
+  input[type="number"] {
+    width: 500px;
+    padding: 5px;
+    margin-top: 40px;  
+    margin-right: 10px;
+
+    border: 2px solid rgb(245, 126, 146);
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color:rgb(245, 126, 146);
+    color: white;
+    border: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .calories {
+    margin-top: 40px;
+    display: flex;
+  }
+  
+  .calories p {
+    margin-bottom: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #f44336;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+  }
+  
+  .calories button {
+    background-color: #f44336;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    margin-top: 40px;
+  }
+  
+  .calories button:hover {
+    background-color: #d32f2f;
+  }
+
+.foodbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(240, 248, 255, 0.461);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(245, 126, 146);
+}
+  
